@@ -7,13 +7,16 @@ public class SpiralDisplay {
         int n = Integer.parseInt(br.readLine());
         int m = Integer.parseInt(br.readLine());
         int[][] arr = new int[n][m];
-  
+        
+        //System.out.println(arr.length);//row=n
+        //System.out.println(arr[0].length);//column=m
+        
         for (int i = 0; i < n; i++) {
            for (int j = 0; j < m; j++) {
               arr[i][j] = Integer.parseInt(br.readLine());
            }
         }
-  
+       
         int cnt = 0;
         int tne  = n * m;
         int minr = 0;
