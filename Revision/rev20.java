@@ -10,7 +10,6 @@ public class rev20 {
             }
             System.out.println(sb);
           }
-
         public static void main(String[] args) throws Exception {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
